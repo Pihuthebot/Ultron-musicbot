@@ -22,7 +22,7 @@ url['readme_heroku'] = (
 )
 url['heroku'] = (
     "https://heroku.com/deploy?template="
-    "https://github.com/mrnitric/Ultron-musicbot/tree/dev"
+    "https://github.com/mrnitric/Ultron-musicbot/tree/main"
 )
 url['replit'] = "https://replit.com/@nikhilcroaker/music-robo#main.py"
 notes['heroku'] = f"""{emoji.LABEL} **Heroku** (/notes #heroku):
