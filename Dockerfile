@@ -9,7 +9,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y ffmpeg opus-tools bpm-tools
 RUN python -m pip install --upgrade pip
 RUN python -m pip install wheel Pyrogram TgCrypto
-RUN python -m pip install pytgcalls ffmpeg-python psutil
+RUN python -m pip install pytgcalls ffmpeg psutil
 
 RUN wget -q https://github.com/mrnitric/Ultron-musicbot/archive/main.tar.gz && \
     tar xf main.tar.gz && rm main.tar.gz
